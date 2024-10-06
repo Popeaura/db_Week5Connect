@@ -1,14 +1,6 @@
 // Import some dependencies/ packages 
-
-// HTTP framework for handling requests
 const express = require('express');
-//Instance of express framework
-const app = express(); 
-// DBMS Mysql 
-const mysql = require('mysql2');
-// Cross Origin Resourse Sharing 
-const cors = require('cors');
-// Environment variable doc 
+const mysql = require('mysql2')
 const dotenv = require('dotenv'); 
 
 // 
