@@ -1,0 +1,30 @@
+{
+  "name": "db_week5connect",
+  "version": "1.0.0",
+  "description": "The aim of this project is to introduce you to the connection of MySQL database to NodeJs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Popeaura/db_Week5Connect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Popeaura/db_Week5Connect/issues"
+  },
+  "homepage": "https://github.com/Popeaura/db_Week5Connect#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.7"
+  }
+}
